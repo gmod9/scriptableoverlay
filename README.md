@@ -3,7 +3,15 @@ Scriptable client overlay from serverside lua!
 
 ## What is this for lol
 The primary reason why i made it is easier geometry visualization (Boxes and triangles). Only way to draw a box in gmod9 is by calculating every vertex and drawing every line separately. 
-This library aims to make it easier by exposing IVDebugOverlay and having it be controllable from the server's lua instance.
+This library aims to make it easier by exposing IVDebugOverlay and having it be controllable from the server' lua instance.
+
+## Building
+
+1. Grab a copy of the Source SDK from here https://github.com/alliedmodders/hl2sdk (branch: episode1).
+2. Set the HL2SDK environment variable to the path of the sdk.
+3. Load up the solution in VS2022.
+4. In both clientside and serverside projects, delete or change the post build event commandline.
+5. Build in Release mode for x86.
 
 ## Usage
 
