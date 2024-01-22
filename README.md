@@ -2,7 +2,8 @@
 Scriptable client overlay from serverside lua!
 
 ## What is this for lol
-The primary reason why i made it is easier geometry visualization (Boxes and triangles). Only way to draw a box in gmod9 is by calculating every vertex and drawing every line separately.
+The primary reason why i made it is easier geometry visualization (Boxes and triangles). Only way to draw a box in gmod9 is by calculating every vertex and drawing every line separately. 
+This library aims to make it easier by exposing IVDebugOverlay and having it be controllable from the server's lua instance.
 
 ## Usage
 
