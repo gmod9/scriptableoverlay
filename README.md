@@ -16,3 +16,8 @@ The primary reason why i made it is easier geometry visualization (Boxes and tri
 - overlay.ClearAllOverlays(number client)
 - overlay.ClearDeadOverlays(number client)
 - overlay.AddTextOverlayRGB(number client, vector3 origin, number line, number duration, number r, number g, number b, number a, string text)
+
+### Credits
+- https://www.lua.org/ (lua/)
+- https://github.com/TsudaKageyu/minhook (minhook-master/)
+- @dakrk (memoverride patch)
