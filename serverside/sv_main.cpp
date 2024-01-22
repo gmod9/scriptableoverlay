@@ -21,7 +21,6 @@ bool CVSPlugin::Load(CreateInterfaceFn interfaceFactory, CreateInterfaceFn gameS
 {
 	engine = (IVEngineServer*)interfaceFactory(INTERFACEVERSION_VENGINESERVER, NULL);
 	if (!engine) {
-		Msg("shitted\n");
 		return false;
 	}
 	first = *(int*)((char*)usermessages + 20);
