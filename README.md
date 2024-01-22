@@ -13,6 +13,8 @@ This library aims to make it easier by exposing IVDebugOverlay and having it be 
 4. In both clientside and serverside projects, delete or change the post build event commandline.
 5. Build in Release mode for x86.
 
+Prebuilt binaries are available at https://gmod9.com/~bt/files/prebuilt.tar
+
 ## Usage
 
 - overlay.AddEntityTextOverlay(number client, number entity, number line, number duration, number r, number g, number b, number a, string text)
